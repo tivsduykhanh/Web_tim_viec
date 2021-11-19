@@ -2,12 +2,48 @@
 <html lang="zxx" class="no-js">
 
 <head>
+<<<<<<< HEAD
     @include('header')
+=======
+@include('header')
+>>>>>>> d92abc8fc58a6847ee0bc9fbabe9fc3d056866b4
 </head>
 
 <body>
 
+<<<<<<< HEAD
     @include('navbar')
+=======
+    <header id="header" id="home">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="/template/user/img/logo.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="category.html">Category</a></li>
+                        <li><a href="price.html">Price</a></li>
+                        <li><a href="blog-home.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="menu-has-children"><a href="">Pages</a>
+                            <ul>
+                                <li><a href="elements.html">elements</a></li>
+                                <li><a href="search.html">search</a></li>
+                                <li><a href="single.html">single</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="ticker-btn" href="#">Signup</a></li>
+                        <li><a class="ticker-btn" href="#">Login</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header><!-- #header -->
+
+>>>>>>> d92abc8fc58a6847ee0bc9fbabe9fc3d056866b4
 
     <!-- start banner Area -->
     <section class="banner-area relative" id="home">
@@ -21,7 +57,12 @@
                     <form action="search.html" class="serach-form-area">
                         <div class="row justify-content-center form-wrap">
                             <div class="col-lg-4 form-cols">
+<<<<<<< HEAD
                                 <input type="text" class="form-control" name="search" placeholder="what are you looging for?">
+=======
+                                <input type="text" class="form-control" name="search"
+                                    placeholder="what are you looging for?">
+>>>>>>> d92abc8fc58a6847ee0bc9fbabe9fc3d056866b4
                             </div>
                             <div class="col-lg-3 form-cols">
                                 <div class="default-select" id="default-selects"">
@@ -790,8 +831,16 @@
         </div>
     </section>
     <!-- End download Area -->
+<<<<<<< HEAD
     @include('footer')
 
 </body>
 
 </html>
+=======
+		@include('footer')
+
+</body>
+
+</html>
+>>>>>>> d92abc8fc58a6847ee0bc9fbabe9fc3d056866b4
