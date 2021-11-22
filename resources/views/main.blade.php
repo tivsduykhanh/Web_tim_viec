@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @include('header')
 
@@ -11,6 +12,8 @@
 
 
 =======
+=======
+>>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -857,4 +860,7 @@
 
 </html>
 >>>>>>> d92abc8fc58a6847ee0bc9fbabe9fc3d056866b4
+<<<<<<< HEAD
+>>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
+=======
 >>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85

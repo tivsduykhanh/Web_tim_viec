@@ -1,6 +1,7 @@
    <!-- start footer Area -->
    <footer class="footer-area section-gap">
 <<<<<<< HEAD
+<<<<<<< HEAD
          <div class="container">
             <div class="row">
                <div class="col-lg-3  col-md-12">
@@ -78,6 +79,8 @@
             </div>
          </div>
 =======
+=======
+>>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
    <div class="container">
    <div class="row">
    <div class="col-lg-3  col-md-12">
@@ -155,6 +158,9 @@
    </div>
    </div>
    </div>
+<<<<<<< HEAD
+>>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
+=======
 >>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
    </footer>
    <!-- End footer Area -->
@@ -177,9 +183,12 @@
    <script src="/template/user/js/mail-script.js"></script>
    <script src="/template/user/js/main.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
    </body>
 
    </html>
+=======
+>>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
 =======
 >>>>>>> 005fd530be0498fc823ed6c4f245bd5e0dbc6e85
