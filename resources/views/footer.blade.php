@@ -46,6 +46,7 @@
                   <div class="single-footer-widget mail-chimp">
                      <h6 class="mb-20">Instragram Feed</h6>
                      <ul class="instafeed d-flex flex-wrap">
+<<<<<<< HEAD
                            <li><img src="/template/img/i1.jpg" alt=""></li>
                            <li><img src="/template/img/i2.jpg" alt=""></li>
                            <li><img src="/template/img/i3.jpg" alt=""></li>
@@ -54,6 +55,16 @@
                            <li><img src="/template/img/i6.jpg" alt=""></li>
                            <li><img src="/template/img/i7.jpg" alt=""></li>
                            <li><img src="/template/img/i8.jpg" alt=""></li>
+=======
+                           <li><img src="/template/user/img/i1.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i2.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i3.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i4.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i5.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i6.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i7.jpg" alt=""></li>
+                           <li><img src="/template/user/img/i8.jpg" alt=""></li>
+>>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                      </ul>
                   </div>
                </div>
@@ -79,6 +90,7 @@
    </footer>
    <!-- End footer Area -->
 
+<<<<<<< HEAD
    <script src="/template/js/vendor/jquery-2.2.4.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -96,6 +108,25 @@
    <script src="/template/js/parallax.min.js"></script>
    <script src="/template/js/mail-script.js"></script>
    <script src="/template/js/main.js"></script>
+=======
+   <script src="/template/user/js/vendor/jquery-2.2.4.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="/template/user/js/vendor/bootstrap.min.js"></script>
+   <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+   <script src="/template/user/js/easing.min.js"></script>
+   <script src="/template/user/js/hoverIntent.js"></script>
+   <script src="/template/user/js/superfish.min.js"></script>
+   <script src="/template/user/js/jquery.ajaxchimp.min.js"></script>
+   <script src="/template/user/js/jquery.magnific-popup.min.js"></script>
+   <script src="/template/user/js/owl.carousel.min.js"></script>
+   <script src="/template/user/js/jquery.sticky.js"></script>
+   <script src="/template/user/js/jquery.nice-select.min.js"></script>
+   <script src="/template/user/js/parallax.min.js"></script>
+   <script src="/template/user/js/mail-script.js"></script>
+   <script src="/template/user/js/main.js"></script>
+>>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
 
    </body>
 

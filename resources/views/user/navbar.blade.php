@@ -2,7 +2,11 @@
     <div class="container">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
+<<<<<<< HEAD
                 <a href="index.html"><img src="/template/img/logo.png" alt="" title="" /></a>
+=======
+                <a href="index.html"><img src="/template/user/img/logo.png" alt="" title="" /></a>
+>>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
@@ -19,10 +23,14 @@
                             <li><a href="single.html">single</a></li>
                         </ul>
                     </li> --}}
+<<<<<<< HEAD
                     <li>
                         <a> Xin chào, {{--{{  Auth::user()->name }} --}} </a>
                         <a class="ticker-btn" href="user/login">{{ __('Đăng xuất') }}</a>
                     </li>
+=======
+                    <li><a class="ticker-btn" href="user/login">Đã đăng nhập</a></li>
+>>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>

@@ -23,10 +23,17 @@ class CreateHososTable extends Migration
             $table->date('ngaysinh');
             $table->string('diachi');
             $table->longText('gioithieu');
+<<<<<<< HEAD
             $table->longText('kynang');
             $table->longText('hocvan');
             $table->longText('kinhnghiem');
             $table->longText('hoatdong');
+=======
+            $table->text('kynang');
+            $table->text('hocvan');
+            $table->text('kinhnghiem');
+            $table->text('hoatdong');
+>>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
             $table->string('id_nguoitimviec');
             $table->timestamps();
         });
