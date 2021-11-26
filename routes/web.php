@@ -7,14 +7,10 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Nguoitimviec\TaocvController;
 use App\Http\Controllers\Nguoitimviec\AuthController;
 use App\Http\Controllers\Nguoitimviec\HomeController as NguoitimviecHomeController;
-<<<<<<< HEAD
 use App\Http\Controllers\Nhatuyendung\HomeController as NhatuyendungHomeController;
 use App\Http\Controllers\Nguoitimviec\HosoController;
 use App\Http\Controllers\Nguoitimviec\UploadController;
 use App\Http\Controllers\Nhatuyendung\JobController;
-=======
-use App\Http\Controllers\Nguoitimviec\HosoController;
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
 use App\Http\Controllers\Nhatuyendung\AuthBusinessController;
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
@@ -53,7 +49,6 @@ Route::middleware(['auth'])->group(function () {
         Route::get('main', [Maincontroller::class, 'index']);
     
     });
-<<<<<<< HEAD
 });
 
 
@@ -115,11 +110,4 @@ Route::get('signout', [AuthBusinessController::class, 'signOut'])->name('signout
 //---------------HOME-----------------
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-=======
-});
-
-
-
-
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
 
