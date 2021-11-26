@@ -103,11 +103,7 @@
                 <div class="active-popular-post-carusel">
                     <div class="single-popular-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img class="img-fluid" src="/template/img/p1.png" alt="">
-=======
-                            <img class="img-fluid" src="/template/user/img/p1.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <a class="btns text-uppercase" href="#">view job post</a>
                         </div>
                         <div class="details">
@@ -123,11 +119,7 @@
                     </div>
                     <div class="single-popular-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/p2.png" alt="">
-=======
-                            <img src="/template/user/img/p2.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <a class="btns text-uppercase" href="#">view job post</a>
                         </div>
                         <div class="details">
@@ -159,11 +151,7 @@
                     </div>
                     <div class="single-popular-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/p2.png" alt="">
-=======
-                            <img src="/template/user/img/p2.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <a class="btns text-uppercase" href="#">view job post</a>
                         </div>
                         <div class="details">
@@ -179,11 +167,7 @@
                     </div>
                     <div class="single-popular-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/p1.png" alt="">
-=======
-                            <img src="/template/user/img/p1.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <a class="btns text-uppercase" href="#">view job post</a>
                         </div>
                         <div class="details">
@@ -199,11 +183,7 @@
                     </div>
                     <div class="single-popular-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/p2.png" alt="">
-=======
-                            <img src="/template/user/img/p2.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <a class="btns text-uppercase" href="#">view job post</a>
                         </div>
                         <div class="details">
@@ -238,11 +218,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="single-fcat">
                         <a href="category.html">
-<<<<<<< HEAD
                             <img src="/template/img/o1.png" alt="">
-=======
-                            <img src="/template/user/img/o1.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                         </a>
                         <p>Accounting</p>
                     </div>
@@ -250,11 +226,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="single-fcat">
                         <a href="category.html">
-<<<<<<< HEAD
                             <img src="/template/img/o2.png" alt="">
-=======
-                            <img src="/template/user/img/o2.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                         </a>
                         <p>Development</p>
                     </div>
@@ -262,11 +234,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="single-fcat">
                         <a href="category.html">
-<<<<<<< HEAD
                             <img src="/template/img/o3.png" alt="">
-=======
-                            <img src="/template/user/img/o3.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                         </a>
                         <p>Technology</p>
                     </div>
@@ -274,11 +242,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="single-fcat">
                         <a href="category.html">
-<<<<<<< HEAD
                             <img src="/template/img/o4.png" alt="">
-=======
-                            <img src="/template/user/img/o4.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                         </a>
                         <p>Media & News</p>
                     </div>
@@ -286,11 +250,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="single-fcat">
                         <a href="category.html">
-<<<<<<< HEAD
                             <img src="/template/img/o5.png" alt="">
-=======
-                            <img src="/template/user/img/o5.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                         </a>
                         <p>Medical</p>
                     </div>
@@ -298,11 +258,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="single-fcat">
                         <a href="category.html">
-<<<<<<< HEAD
                             <img src="/template/img/o6.png" alt="">
-=======
-                            <img src="/template/user/img/o6.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                         </a>
                         <p>Goverment</p>
                     </div>
@@ -325,11 +281,7 @@
                     </ul>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -367,11 +319,7 @@
                     </div>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -409,11 +357,7 @@
                     </div>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -451,11 +395,7 @@
                     </div>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -493,11 +433,7 @@
                     </div>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -535,11 +471,7 @@
                     </div>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -577,11 +509,7 @@
                     </div>
                     <div class="single-post d-flex flex-row">
                         <div class="thumb">
-<<<<<<< HEAD
                             <img src="/template/img/post.png" alt="">
-=======
-                            <img src="/template/user/img/post.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             <ul class="tags">
                                 <li>
                                     <a href="#">Art</a>
@@ -653,11 +581,7 @@
                         <h4>Top rated job posts</h4>
                         <div class="active-relatedjob-carusel">
                             <div class="single-rated">
-<<<<<<< HEAD
                                 <img class="img-fluid" src="/template/img/r1.jpg" alt="">
-=======
-                                <img class="img-fluid" src="/template/user/img/r1.jpg" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                                 <a href="single.html">
                                     <h4>Creative Art Designer</h4>
                                 </a>
@@ -673,11 +597,7 @@
                                 <a href="#" class="btns text-uppercase">Apply job</a>
                             </div>
                             <div class="single-rated">
-<<<<<<< HEAD
                                 <img class="img-fluid" src="/template/img/r1.jpg" alt="">
-=======
-                                <img class="img-fluid" src="/template/user/img/r1.jpg" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                                 <a href="single.html">
                                     <h4>Creative Art Designer</h4>
                                 </a>
@@ -693,11 +613,7 @@
                                 <a href="#" class="btns text-uppercase">Apply job</a>
                             </div>
                             <div class="single-rated">
-<<<<<<< HEAD
                                 <img class="img-fluid" src="/template/img/r1.jpg" alt="">
-=======
-                                <img class="img-fluid" src="/template/user/img/r1.jpg" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                                 <a href="single.html">
                                     <h4>Creative Art Designer</h4>
                                 </a>
@@ -830,11 +746,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 download-left">
-<<<<<<< HEAD
                     <img class="img-fluid" src="/template/img/d1.png" alt="">
-=======
-                    <img class="img-fluid" src="/template/user/img/d1.png" alt="">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                 </div>
                 <div class="col-lg-6 download-right">
                     <h1>Download the <br>

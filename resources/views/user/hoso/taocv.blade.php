@@ -28,17 +28,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-8">
                         <h3 class="mb-30">Form Element</h3>
-<<<<<<< HEAD
                         <form action="" method="POST">
                             <div class="mt-10">
                                 <input type="file" id="upload" required class="single-input">
                                 <div id="image_show"></div>
                                 <input type="hidden" name="imghoso" id="imghoso">
-=======
-                        <form action="#">
-                            <div class="mt-10">
-                                <input type="file" name="imghoso" required class="single-input">
->>>>>>> 7b205d17fd2792194514ca89701f9c014d07c5e2
                             </div>
                             <div class="mt-10">
                                 <input type="text" name="tenhoso" placeholder="Tên hồ sơ"
