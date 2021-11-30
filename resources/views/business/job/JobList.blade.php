@@ -25,7 +25,7 @@
 					<div class="row justify-content-center d-flex">
                         <!--Start of JobList-->
 						<div class="col-lg-8 post-list">
-							<div class="single-post d-flex flex-row">
+							<!-- <div class="single-post d-flex flex-row">
 								<div class="thumb">
 									<img src="img/post.png" alt="">
 									<ul class="tags">
@@ -58,7 +58,33 @@
 									<p class="address"><span class="lnr lnr-map"></span> 56/8, Panthapath Dhanmondi Dhaka</p>
 									<p class="address"><span class="lnr lnr-database"></span> 15k - 25k</p>
 								</div>
-							</div>
+							</div> -->
+							@foreach($listjob as $key => $job)
+								<div class="single-post d-flex flex-row">
+									<div class="thumb">
+										<img src="img/post.png" alt="">
+										<ul class="tags">
+											<li>
+												<a href="#">{{$job->loainganh_id}}</a>
+											</li>
+										</ul>
+									</div>
+									<div class="details">
+										<!-- <div class="serial">{{ $key+1 }}</div> -->
+										<div class="title d-flex flex-row justify-content-between">
+											<div class="titles">
+												<a href="single.html"><h4>{{ $job->tencongviec }}</h4></a>
+												<h6>{{ $job->mucluong}}</h6>					
+											</div>
+										</div>
+										<div class="jobdetail">{{ $job->mota }}</div>
+										<div class="percentage">
+											<a href="/business/job/{{ $job->id }}/edit" class="genric-btn success radius medium">Sửa CV</a>
+											<a href="/business/job/{{ $job->id }}/delete" style="margin-left: 10px" class="genric-btn danger radius medium">Xoá CV</a>
+										</div>
+									</div>
+								</div>
+							@endforeach
 							
 							<div class="single-post d-flex flex-row">
 								<button  class="btn btn-primary" href="#">

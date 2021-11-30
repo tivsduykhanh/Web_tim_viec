@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Nhatuyendung;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Auth;
 
 class JobController extends Controller
 {
@@ -14,9 +17,13 @@ class JobController extends Controller
      */
     public function B_JobList() 
     {
+        session_start();
+
+        $getData = DB::table('jobs')->select('id','tencongviec','mucluong','mota','loainganh_id')->where('nhatuyendung_id',Session::get('id'))->get();
+
         return view('business.job.jobList', [
             'title' => 'Danh sách việc đã đăng'
-        ]);
+        ])->with('listjob', $getData);
     }
 
     public function B_CreateJob()
