@@ -30,7 +30,11 @@ class AuthBusinessController extends Controller
         if($result){
             Session::put('name', $result->name);
             Session::put('id', $result->id);
+<<<<<<< HEAD
             return redirect()->route('businesshome');
+=======
+            return redirect()->route('home');
+>>>>>>> 5e9745b8130b5dd453ab0908dda95ed72813a836
         }else {
             Session::put('message', 'Email hoặc mật khẩu không đúng');
             return redirect()->back();
@@ -61,7 +65,11 @@ class AuthBusinessController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
+<<<<<<< HEAD
         return redirect()->route('businesshome');
+=======
+        return redirect()->route('home');
+>>>>>>> 5e9745b8130b5dd453ab0908dda95ed72813a836
     }
 
 

@@ -7,11 +7,17 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Nguoitimviec\TaocvController;
 use App\Http\Controllers\Nguoitimviec\AuthController;
 use App\Http\Controllers\Nguoitimviec\HomeController as NguoitimviecHomeController;
+<<<<<<< HEAD
 use App\Http\Controllers\Nhatuyendung\HomeController as NhatuyendungHomeController;
 use App\Http\Controllers\Nguoitimviec\HosoController;
 use App\Http\Controllers\Nguoitimviec\UploadController;
 use App\Http\Controllers\Nhatuyendung\AuthBusinessController;
 use App\Http\Controllers\Nhatuyendung\jobController as jobController;
+=======
+use App\Http\Controllers\Nguoitimviec\HosoController;
+use App\Http\Controllers\Nguoitimviec\UploadController;
+use App\Http\Controllers\Nhatuyendung\AuthBusinessController;
+>>>>>>> 5e9745b8130b5dd453ab0908dda95ed72813a836
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 Route::post('admin/users/login/timviec', [LoginController::class, 'timviec']);
@@ -71,15 +77,21 @@ Route::get('signout', [AuthController::class, 'signOut'])->name('signout');
 //-----------Business-------------
 
 Route::prefix('business')->group(function (){
+<<<<<<< HEAD
     Route::get('/',[NhatuyendungHomeController::class, 'index'])->name('businesshome');
 
+=======
+>>>>>>> 5e9745b8130b5dd453ab0908dda95ed72813a836
 
     Route::get('login', [AuthBusinessController::class, 'index'])->name('businesslogin');
     Route::get('register', [AuthBusinessController::class, 'registration'])->name('register-business');
 
+<<<<<<< HEAD
     Route::get('job', [jobController::class, 'B_jobList'])->name('joblist');
     Route::get('job/{id}', [jobController::class, 'B_jobDetail'])->name('jobdetail');
 
+=======
+>>>>>>> 5e9745b8130b5dd453ab0908dda95ed72813a836
 });
 
 Route::post('business-home', [AuthBusinessController::class, 'customLogin'])->name('login.business'); 
