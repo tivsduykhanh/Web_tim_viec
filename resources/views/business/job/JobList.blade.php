@@ -65,7 +65,11 @@
 										<img src="img/post.png" alt="">
 										<ul class="tags">
 											<li>
-												<a href="#">{{$job->loainganh_id}}</a>
+												@foreach($listnganh as $key => $nganh)
+													@if($job->loainganh_id == $nganh->id)
+														<a href="#">{{$nganh->tennganh}}</a>
+													@endif
+												@endforeach
 											</li>
 										</ul>
 									</div>

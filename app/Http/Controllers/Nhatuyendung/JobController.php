@@ -20,10 +20,10 @@ class JobController extends Controller
         session_start();
 
         $getData = DB::table('jobs')->select('id','tencongviec','mucluong','mota','loainganh_id')->where('nhatuyendung_id',Session::get('id'))->get();
-
+        $data2 = DB::table('loainganhs')->select('id','tennganh')->get();
         return view('business.job.jobList', [
             'title' => 'Danh sách việc đã đăng'
-        ])->with('listjob', $getData);
+        ])->with('listjob', $getData)->with('listnganh', $data2);
     }
 
     public function B_CreateJob()

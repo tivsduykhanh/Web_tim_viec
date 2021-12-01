@@ -20,7 +20,7 @@
                         </ul>
                     </li> --}}
                     <li>
-                        <a> Xin chào, {{--{{  Auth::user()->name }} --}} </a>
+                        <a> Xin chào, </a>
                         <a class="ticker-btn" href="business/login">{{ __('Đăng xuất') }}</a>
                     </li>
                 </ul>
