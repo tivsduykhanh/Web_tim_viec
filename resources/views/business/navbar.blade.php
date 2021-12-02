@@ -12,16 +12,11 @@
                     <li><a href="price.html">Công ty</a></li>
                     <li><a href="blog-home.html">Liên hệ</a></li>
                     <li><a href="contact.html">Về chúng tôi</a></li>
-                    {{-- <li class="menu-has-children"><a href="">Pages</a>
+                    <li class="menu-has-children">
+                        <a class="ticker-btn" ><?php $name = Session::get('name'); if($name){echo $name;} ?></a>
                         <ul>
-                            <li><a href="elements.html">elements</a></li>
-                            <li><a href="search.html">search</a></li>
-                            <li><a href="single.html">single</a></li>
+                            <li><a href="/business/logout">{{ __('Đăng xuất') }}</a></li>
                         </ul>
-                    </li> --}}
-                    <li>
-                        <a> Xin chào, </a>
-                        <a class="ticker-btn" href="business/login">{{ __('Đăng xuất') }}</a>
                     </li>
                 </ul>
             </nav><!-- #nav-menu-container -->

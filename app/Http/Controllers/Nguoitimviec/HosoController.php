@@ -5,11 +5,11 @@ namespace App\Http\Controllers\Nguoitimviec;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Hoso\HosoRequest;
 use App\Http\Services\Hoso\HosoUserService;
+use App\Models\Hoso;
+use App\Models\Nguoitimviec;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
-use App\Models\Hoso;
-use App\Models\Nguoitimviec;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -196,17 +196,17 @@ class HosoController extends Controller
     public function destroy($id)
     {
         //Xoa hoc sinh
-	//Thực hiện câu lệnh xóa với giá trị id = $id trả về
-	$deleteData = DB::table('hosos')->where('id', '=', $id)->delete();
-	
-	//Kiểm tra lệnh delete để trả về một thông báo
-	if ($deleteData) {
-		Session::flash('success', 'Xóa CV thành công!');
-	}else {                        
-		Session::flash('error', 'Xóa CV thất bại!');
-	}
-	
-	//Thực hiện chuyển trang
-	return redirect('/user/hoso');
+        //Thực hiện câu lệnh xóa với giá trị id = $id trả về
+        $deleteData = DB::table('hosos')->where('id', '=', $id)->delete();
+        
+        //Kiểm tra lệnh delete để trả về một thông báo
+        if ($deleteData) {
+            Session::flash('success', 'Xóa CV thành công!');
+        }else {                        
+            Session::flash('error', 'Xóa CV thất bại!');
+        }
+        
+        //Thực hiện chuyển trang
+        return redirect('/user/hoso');
     }
 }

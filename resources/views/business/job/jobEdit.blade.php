@@ -51,75 +51,75 @@
                     <form action="{{ route('jobadd') }}" method="POST">
                         @csrf
                         <div class="mt-10">
-                            <input type="text" name="tencongviec" id="tencongviec" value="{{ old('tencongviec') }}"
+                            <input type="text" name="tencongviec" id="tencongviec" value="{{ $jobEdit[0]->tencongviec }}"
                                 placeholder="Tên công việc" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Tên công việc'" class="single-input" required>
                         </div>
                         <div class="mt-10">
-                            <input type="text" name="tencongty" id="tencongty" value="{{ old('tencongty') }}"
+                            <input type="text" name="tencongty" id="tencongty" value="{{ $jobEdit[0]->tencongty }}"
                                 placeholder="Tên công ty" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Tên công ty'" class="single-input" required>
                         </div>
                         <div class="mt-10">
-                            <input type="text" name="mucluong" id="mucluong" value="{{ old('mucluong') }}"
+                            <input type="text" name="mucluong" id="mucluong" value="{{ $jobEdit[0]->mucluong }}"
                                 placeholder="Mức lương" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Mức lương'" class="single-input" required>
                         </div>
                         <div class="mt-10">
-                            <textarea name="kinhnghiem" id="kinhnghiem" value="{{ old('kinhnghiem') }}"
+                            <textarea name="kinhnghiem" id="kinhnghiem" value="<?php echo $jobEdit["kinhnghiem"]; ?>"
                                 class="single-textarea" placeholder="Kinh nghiệm"
                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Kinh nghiệm'"
                                 ></textarea>
                         </div>
                         <div class="mt-10">
-                            <textarea name="yeucaubangcap" id="yeucaubangcap" value="{{ old('yeucaubangcap') }}"
+                            <textarea name="yeucaubangcap" id="yeucaubangcap" value="{{ $jobEdit[0]->yeucaubangcap }}"
                                 class="single-textarea" placeholder="Yêu cầu bằng cấp"
                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Yêu cầu bằng cấp'"
                                 ></textarea>
                         </div>
                         <div class="mt-10">
-                            <input type="text" name="chucvu" id="chucvu" value="{{ old('chucvu') }}"
+                            <input type="text" name="chucvu" id="chucvu" value="{{ $jobEdit[0]-> chucvu }}"
                                 placeholder="Chức việc" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Chức việc'" class="single-input" required>
                         </div>
                         <div class="mt-10">
-                            <textarea name="hinhthuclamviec" id="hinhthuclamviec" value="{{ old('hinhthuclamviec') }}"
+                            <textarea name="hinhthuclamviec" id="hinhthuclamviec" value="{{ $jobEdit[0]-> hinhthuclamviec }}"
                                 class="single-textarea" placeholder="Hình thức làm việc"
                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Hình thức làm việc'"
                                 ></textarea>
                         </div>
                         <div class="mt-10">
-                            <input type="text" name="soluongtuyen" id="soluongtuyen" value="{{ old('soluongtuyen') }}"
+                            <input type="text" name="soluongtuyen" id="soluongtuyen" value="{{ $jobEdit[0]-> soluongtuyen }}"
                                 placeholder="Số lượng tuyển" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Số lượng tuyển'" class="single-input" required>
                         </div>
                         <div class="mt-10">
-                            <textarea name="diadiemlamviec" id="diadiemlamviec" value="{{ old('diadiemlamviec') }}" class="single-textarea"
+                            <textarea name="diadiemlamviec" id="diadiemlamviec" value="{{ $jobEdit[0]-> diadiemlamviec }}" class="single-textarea"
                                 placeholder="Địa điểm làm việc" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Địa điểm làm việc'"></textarea>
                         </div>
                         <div class="mt-10">
-                            <textarea name="mota" id="mota" value="{{ old('mota') }}" class="single-textarea"
+                            <textarea name="mota" id="mota" value="{{ $jobEdit[0]->mota }}" class="single-textarea"
                                 placeholder="Mô tả" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Mô tả'"></textarea>
                         </div>
                         <div class="mt-10">
-                            <textarea name="yeucau" id="yeucau" value="{{ old('kinhnghiem') }}"
+                            <textarea name="yeucau" id="yeucau" value="{{ $jobEdit[0]->yeucau }}"
                                 class="single-textarea" placeholder="Yêu cầu" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Yêu cầu'"></textarea>
                         </div>
                         <div class="mt-10">
-                            <textarea name="quyenloi" id="quyenloi" value="{{ old('quyenloi') }}"
+                            <textarea name="quyenloi" id="quyenloi" value="{{ $jobEdit[0]->quyenloi }}"
                                 class="single-textarea" placeholder="Quyền lợi" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Quyền lợi'"></textarea>
                         </div>
                         <div class="mt-10">
-                            <textarea name="cachungtuyen" id="cachungtuyen" value="{{ old('cachungtuyen') }}"
+                            <textarea name="cachungtuyen" id="cachungtuyen" value="{{ $jobEdit[0]-> cachungtuyen }}"
                                 class="single-textarea" placeholder="Cách ứng tuyển" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Cách ứng tuyển'"></textarea>
                         </div>
                         <div class="mt-10">
-                            <input type="date" name="hannophoso" id="hannophoso" value="{{ old('hannophoso') }}"
+                            <input type="date" name="hannophoso" id="hannophoso" value="{{ $jobEdit[0]-> hannophoso }}"
                                 placeholder="Hạn nộp hồ sơ" onfocus="this.placeholder = ''"
                                 onblur="this.placeholder = 'Hạn nộp hồ sơ'" class="single-input" required>
                         </div>
@@ -127,7 +127,11 @@
                             <select name="loainganh_id" id="loainganh_id" class="single-input">
                                 <option value="">Chọn loại ngành</option>
                                 @foreach($listnganh as $key => $nganh)
-                                    <option value="{{$nganh->id}}">{{$nganh->tennganh}}</option>
+                                    @if($nganh->id == $jobEdit[0]->loainganh_id)
+                                        <option value="{{ $nganh->id }}" selected>{{ $nganh->tennganh }}</option>
+                                    @else
+                                        <option value="{{$nganh->id}}">{{$nganh->tennganh}}</option>
+                                    @endif
                                 @endforeach
                             </select>
                         </div>
@@ -135,7 +139,11 @@
                             <select name="tinhthanh_id" id="tinhthanh_id" class="single-input">
                                 <option value="">Chọn tỉnh thành</option>
                                 @foreach($listtinhthanh as $key => $tinhthanh)
-                                    <option value="{{$tinhthanh->id}}">{{$tinhthanh->tentinhthanh}}</option>
+                                    @if($tinhthanh->id == $jobEdit[0]->tinhthanh_id)
+                                        <option value="{{ $tinhthanh->id }}" selected>{{ $tinhthanh->tentinhthanh }}</option>
+                                    @else
+                                        <option value="{{$tinhthanh->id}}">{{$tinhthanh->tentinhthanh}}</option>
+                                    @endif
                                 @endforeach
                             </select>
                         </div>

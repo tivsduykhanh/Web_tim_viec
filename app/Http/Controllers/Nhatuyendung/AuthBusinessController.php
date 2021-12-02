@@ -79,7 +79,7 @@ class AuthBusinessController extends Controller
     }    
     
 
-    public function signOut() {
+    public function logout() {
         Auth::logout();
         Session::flush();
         return Redirect()->route('home');

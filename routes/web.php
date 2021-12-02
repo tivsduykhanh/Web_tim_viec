@@ -77,9 +77,22 @@ Route::prefix('business')->group(function (){
 
     Route::get('login', [AuthBusinessController::class, 'index'])->name('businesslogin');
     Route::get('register', [AuthBusinessController::class, 'registration'])->name('register-business');
+    Route::get('logout', [AuthBusinessController::class, 'logout'])->name('logout');
 
-    Route::get('job', [jobController::class, 'B_jobList'])->name('joblist');
-    Route::get('job/{id}', [jobController::class, 'B_jobDetail'])->name('jobdetail');
+    Route::prefix('/job')->group(function (){
+        Route::get('/', [jobController::class, 'B_jobList'])->name('joblist');
+
+        Route::get('/add', [jobController::class, 'create']);
+        Route::post('/addjob',[jobController::class, 'store'])->name('jobadd');
+
+        Route::get('/{id}', [jobController::class, 'B_jobDetail'])->name('jobdetail');
+
+        Route::get('/{id}/edit', [jobController::class, 'edit']);
+        Route::post('/update', [jobController::class, 'update']);
+        
+        Route::get('/{id}/delete', [jobController::class, 'destroy']);
+    });
+    
 
 });
 
